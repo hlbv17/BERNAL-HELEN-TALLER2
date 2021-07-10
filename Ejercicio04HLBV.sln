@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio04HLBV", "Ejercicio04HLBV.csproj", "{4885F293-7CB0-4A85-8AD3-64D8555CF804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4885F293-7CB0-4A85-8AD3-64D8555CF804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4885F293-7CB0-4A85-8AD3-64D8555CF804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4885F293-7CB0-4A85-8AD3-64D8555CF804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4885F293-7CB0-4A85-8AD3-64D8555CF804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD0A4D85-C627-40E0-B03D-368F8D1C08DE}
+	EndGlobalSection
+EndGlobal
