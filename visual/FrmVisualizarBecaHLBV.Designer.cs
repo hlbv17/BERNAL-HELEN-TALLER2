@@ -1,7 +1,7 @@
 ﻿
 namespace Ejercicio04HLBV.visual
 {
-    partial class FrmVisualizarBeca
+    partial class FrmVisualizarBecaHLBV
     {
         /// <summary>
         /// Required designer variable.

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Ejercicio04HLBV.visual
 {
-    public partial class FrmVisualizarBeca : Form
+    public partial class FrmVisualizarBecaHLBV : Form
     {
         AdmBecaInternacionalHLBV adm = AdmBecaInternacionalHLBV.GetAdm();
-        public FrmVisualizarBeca()
+        public FrmVisualizarBecaHLBV()
         {
             InitializeComponent();
             //cmbBecas.Add("Valor");  AÑADIR UN ELEMENTO

@@ -40,7 +40,7 @@ namespace Ejercicio04HLBV.visual
 
         private void mniVisualizar_Click(object sender, EventArgs e)
         {
-            FrmVisualizarBeca frm = new FrmVisualizarBeca();
+            FrmVisualizarBecaHLBV frm = new FrmVisualizarBecaHLBV();
             frm.ShowDialog();
         }
     }
