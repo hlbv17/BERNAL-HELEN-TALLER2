@@ -29,15 +29,15 @@ namespace Ejercicio04HLBV.visual
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mniBecaInternacional = new System.Windows.Forms.ToolStripMenuItem();
             this.mniRegistrar = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mniListar = new System.Windows.Forms.ToolStripMenuItem();
             this.mniEliminar = new System.Windows.Forms.ToolStripMenuItem();
-            this.mniSalir = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mniVisualizar = new System.Windows.Forms.ToolStripMenuItem();
+            this.mniFiltrar = new System.Windows.Forms.ToolStripMenuItem();
+            this.mniSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,9 +55,11 @@ namespace Ejercicio04HLBV.visual
             // 
             this.mniBecaInternacional.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mniRegistrar,
+            this.editarToolStripMenuItem,
             this.mniListar,
             this.mniEliminar,
             this.mniVisualizar,
+            this.mniFiltrar,
             this.mniSalir});
             this.mniBecaInternacional.Name = "mniBecaInternacional";
             this.mniBecaInternacional.Size = new System.Drawing.Size(116, 20);
@@ -69,6 +71,13 @@ namespace Ejercicio04HLBV.visual
             this.mniRegistrar.Size = new System.Drawing.Size(180, 22);
             this.mniRegistrar.Text = "Registrar";
             this.mniRegistrar.Click += new System.EventHandler(this.mniRegistrar_Click);
+            // 
+            // editarToolStripMenuItem
+            // 
+            this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem.Text = "Editar";
+            this.editarToolStripMenuItem.Click += new System.EventHandler(this.editarToolStripMenuItem_Click);
             // 
             // mniListar
             // 
@@ -84,24 +93,26 @@ namespace Ejercicio04HLBV.visual
             this.mniEliminar.Text = "Eliminar";
             this.mniEliminar.Click += new System.EventHandler(this.mniEliminar_Click);
             // 
-            // mniSalir
-            // 
-            this.mniSalir.Name = "mniSalir";
-            this.mniSalir.Size = new System.Drawing.Size(180, 22);
-            this.mniSalir.Text = "Salir";
-            this.mniSalir.Click += new System.EventHandler(this.mniSalir_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // mniVisualizar
             // 
             this.mniVisualizar.Name = "mniVisualizar";
             this.mniVisualizar.Size = new System.Drawing.Size(180, 22);
             this.mniVisualizar.Text = "Visualizar";
             this.mniVisualizar.Click += new System.EventHandler(this.mniVisualizar_Click);
+            // 
+            // mniFiltrar
+            // 
+            this.mniFiltrar.Name = "mniFiltrar";
+            this.mniFiltrar.Size = new System.Drawing.Size(180, 22);
+            this.mniFiltrar.Text = "Filtrar";
+            this.mniFiltrar.Click += new System.EventHandler(this.mniFiltrar_Click);
+            // 
+            // mniSalir
+            // 
+            this.mniSalir.Name = "mniSalir";
+            this.mniSalir.Size = new System.Drawing.Size(180, 22);
+            this.mniSalir.Text = "Salir";
+            this.mniSalir.Click += new System.EventHandler(this.mniSalir_Click);
             // 
             // FrmMenuHLBV
             // 
@@ -128,7 +139,8 @@ namespace Ejercicio04HLBV.visual
         private System.Windows.Forms.ToolStripMenuItem mniListar;
         private System.Windows.Forms.ToolStripMenuItem mniEliminar;
         private System.Windows.Forms.ToolStripMenuItem mniSalir;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mniVisualizar;
+        private System.Windows.Forms.ToolStripMenuItem mniFiltrar;
+        private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
     }
 }

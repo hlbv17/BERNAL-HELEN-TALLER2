@@ -40,6 +40,7 @@ namespace Ejercicio04HLBV.visual
             this.colUniversidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvBecas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,15 +130,26 @@ namespace Ejercicio04HLBV.visual
             this.lblTotal.TabIndex = 2;
             this.lblTotal.Text = "________";
             // 
-            // FmrListarHLBV
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(379, 453);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(88, 41);
+            this.btnEliminar.TabIndex = 3;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // FrmListarHLBV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 483);
+            this.ClientSize = new System.Drawing.Size(874, 506);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtgvBecas);
-            this.Name = "FmrListarHLBV";
+            this.Name = "FrmListarHLBV";
             this.Text = "FmrListarHLBV";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvBecas)).EndInit();
             this.ResumeLayout(false);
@@ -158,5 +170,6 @@ namespace Ejercicio04HLBV.visual
         private System.Windows.Forms.DataGridViewTextBoxColumn colUniversidad;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }

@@ -46,11 +46,7 @@ namespace Ejercicio04HLBV.visual
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             int indice = cmbBecas.SelectedIndex;
-            if (adm.ValidarV(chkNacional, chkInternacional, error))
-            {
-                adm.agregarV(lstNacional, lstInternacional, indice);
-            }
-            
+            adm.agregarV(lstNacional, lstInternacional, indice);
         }
     }
 }

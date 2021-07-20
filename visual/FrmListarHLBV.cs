@@ -19,5 +19,13 @@ namespace Ejercicio04HLBV.visual
             adm.LlenarGrid(dtgvBecas, lblTotal);
         }
 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            int posicion = dtgvBecas.CurrentRow.Index; //obtiene el indice de la fila seleccionada
+            if (posicion >= 0)
+            {
+                adm.Eliminar(dtgvBecas, posicion, lblTotal);
+            }
+        }
     }
 }

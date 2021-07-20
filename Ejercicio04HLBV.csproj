@@ -49,6 +49,18 @@
     <Compile Include="model\BecaHLBV.cs" />
     <Compile Include="model\BecaInternacionalHLBV.cs" />
     <Compile Include="model\BecaNacionalHLBV.cs" />
+    <Compile Include="visual\FrmEditarHLBV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visual\FrmEditarHLBV.Designer.cs">
+      <DependentUpon>FrmEditarHLBV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="visual\FrmFiltrarHLBV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visual\FrmFiltrarHLBV.Designer.cs">
+      <DependentUpon>FrmFiltrarHLBV.cs</DependentUpon>
+    </Compile>
     <Compile Include="visual\FrmListarHLBV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="visual\FrmEditarHLBV.resx">
+      <DependentUpon>FrmEditarHLBV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visual\FrmFiltrarHLBV.resx">
+      <DependentUpon>FrmFiltrarHLBV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="visual\FrmListarHLBV.resx">
       <DependentUpon>FrmListarHLBV.cs</DependentUpon>
     </EmbeddedResource>
